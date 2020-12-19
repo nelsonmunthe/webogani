@@ -1,0 +1,378 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .row {
+    width: 90%;
+  }
+
+  .top-middle-nav,
+  .top-bottom-nav {
+    font-size: 0.8rem;
+  }
+
+  .departement {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .all-category {
+    width: 40%;
+  }
+
+  .slider-content-right img {
+    width: 60%;
+  }
+
+  .slider-content-left * {
+    margin: 3px 0;
+  }
+
+  .slider {
+    height: 60vh;
+  }
+
+  .slider-content-left {
+    grid-column: 2/6;
+  }
+
+  .slider-content-left h1 {
+    font-size: 2.5rem;
+  }
+
+  .featured-product h1 {
+    font-size: 2rem;
+  }
+
+  .featured-product-nav a {
+    font-size: 1rem;
+  }
+
+  .product-select * {
+    margin: 5px;
+  }
+
+  .deal-of-week .row {
+    font-size: 1.5rem;
+  }
+
+  .footer-top {
+    font-size: 0.8rem;
+  }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  .top-nav-right {
+    grid-column: 8/13;
+    font-size: 0.9rem;
+  }
+
+  .top-nav-right i {
+    margin: 0 3px;
+    font-size: 0.9rem;
+  }
+
+  .top-nav-left * {
+    margin: 0 3px;
+  }
+
+  .top-middle-nav,
+  .top-bottom-nav {
+    font-size: 0.6rem;
+  }
+
+  .slider {
+    height: 40vh;
+  }
+
+  .category-product {
+    grid-column: span 6;
+    margin-bottom: 20px;
+  }
+
+  .category-product img {
+    width: 80%;
+  }
+
+  .category-product p {
+    font-size: 1rem;
+  }
+
+  .featured-product-nav a {
+    font-size: 0.9rem;
+  }
+
+  .featured-product-nav {
+    grid-column: 3/11;
+  }
+
+  .product {
+    grid-column: span 6;
+  }
+
+  .featured-product h1 {
+    font-size: 1.5rem;
+  }
+
+  .deal-of-week .row {
+    font-size: 1.2rem;
+  }
+
+  .healty-life h5 {
+    font-size: 0.9rem;
+  }
+
+  .eat-healtier p {
+    font-size: 0.8rem;
+    word-spacing: normal;
+    line-height: 1;
+  }
+
+  .footer-top h5 {
+    font-size: 0.8rem;
+  }
+
+  .footer-top a {
+    line-height: 1;
+  }
+
+  .ogami-address p {
+    line-height: 0.9;
+  }
+
+  .footer-middle {
+    margin-top: 15px;
+  }
+
+  .footer-bottom p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  .row {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .top-nav-left {
+    display: none;
+  }
+
+  .top-nav-right {
+    grid-column: 1/13;
+    justify-content: space-between;
+  }
+
+  .departement {
+    grid-column: 1/13;
+    padding: 15px 0;
+    margin: 0;
+    justify-content: space-around;
+  }
+
+  .departement {
+    font-size: 1rem;
+  }
+
+  .search-category {
+    grid-column: 1/13;
+    margin-top: 10px;
+    align-items: center;
+  }
+
+  .top-middle-nav .row {
+    grid-column: span 4;
+    justify-content: center;
+  }
+
+  .mobile-nav-icon {
+    grid-column: 1/2;
+    display: inline-block;
+  }
+
+  .mobile-nav-icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .logo img {
+    grid-column: 6/9;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .top-middle-nav-cart {
+    font-size: 0.8rem;
+  }
+  
+  .top-middle-nav-center {
+    display: none;
+  }
+
+  .top-middle-nav-center ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .top-middle-nav-center ul li {
+    margin: 5px 0;
+    text-align: left;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+
+  .mobile-nav-icon i {
+    margin-top: 10px;
+  }
+
+  .logo img {
+    display: none;
+  }
+
+  .all-category {
+    width: 50%;
+  }
+
+  .all-category i,
+  .all-category p {
+    padding: 15px 0;
+  }
+
+  .btn-search {
+    height: 100%;
+  }
+
+  .slider-content-left h1 {
+    font-size: 1.5rem;
+  }
+
+  .slider-content-right {
+    grid-column: 8/13;
+  }
+
+  .slider-content-right img {
+    width: 90%;
+  }
+
+  .product {
+    grid-column: 1/13;
+  }
+
+  .benefit-goal {
+    grid-column: span 13;
+    margin-bottom: 30px;
+  }
+
+  .benefit-goal img {
+    width: 10%;
+  }
+
+  .featured-product-nav {
+    grid-column: 1/13;
+  }
+
+  .banner .btn-normal {
+    width: 80px;
+    height: 30px;
+  }
+
+  .deal-of-week .row {
+    font-size: 1.2rem;
+  }
+
+  .eat-healtier {
+    grid-column: 1/13;
+  }
+
+  .duration {
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .event-countdown {
+    grid-column: 4/7;
+  }
+
+  .partner-work {
+    grid-column: span 6;
+  }
+
+  .ogami-address {
+    grid-column: 1/4;
+    line-height: 0.5;
+    font-size: 0.6rem;
+  }
+
+  .ogami-information {
+    grid-column: 4/7;
+    font-size: 0.6rem;
+  }
+
+  .ogami-myaccount {
+    grid-column: 7/10;
+    font-size: 0.6rem;
+  }
+
+  .ogami-quickshop {
+    grid-column: 10/13;
+    font-size: 0.6rem;
+  }
+
+  .join-newsletter {
+    grid-column: 1/13;
+  }
+
+  .payment-method img {
+    width: 40%;
+  }
+
+  .payment-method {
+    overflow: hidden;
+  }
+
+  .banner-left,
+  .banner-middle,
+  .banner-right {
+    grid-column: 1/13;
+  }
+
+  .partner-work img {
+    width: 100%;
+  }
+
+  .ogami-address,
+  .ogami-information,
+  .ogami-myaccount,
+  .ogami-quickshop {
+    grid-column: 1/13;
+    text-align: center;
+  }
+
+  .ogami-address p,
+  .ogami-information a,
+  .ogami-myaccount a,
+  .ogami-quickshop a {
+    font-size: 1rem;
+  }
+
+  .icon-sosmed {
+    width: 90%;
+  }
+
+  .footer-bottom p,
+  .payment-method {
+    grid-column: 1/13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .payment-method img {
+    margin: 10px 0;
+  }
+
+}
